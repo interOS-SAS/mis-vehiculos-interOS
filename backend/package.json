@@ -1,0 +1,41 @@
+{
+  "name": "interos-vehicle-control-backend",
+  "version": "1.0.0",
+  "description": "Sistema de Control de Vehículos INTEROS - Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node scripts/initDatabase.js"
+  },
+  "keywords": [
+    "vehicle",
+    "fleet",
+    "management",
+    "interos"
+  ],
+  "author": "INTEROS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "cloudinary": "^1.41.0",
+    "nodemailer": "^6.9.7",
+    "twilio": "^4.19.0",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "express-rate-limit": "^7.1.5",
+    "moment-timezone": "^0.5.43",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
